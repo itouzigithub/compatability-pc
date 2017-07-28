@@ -64,7 +64,9 @@
 ``` 包起来的部分就是代码块
 github 上，在起始位置的 ``` 紧跟语言名称，github 会应用相应的代码高亮，不加的话就只是没有高亮
 比如一段 js 代码：
-  ```js
+  \`\`\`js
     // 这是一段 js 代码
     console.log(1)
-  ```<br>[详细参考](https://guides.github.com/features/mastering-markdown/)
+  \`\`\`
+
+[详细参考](https://guides.github.com/features/mastering-markdown/)
