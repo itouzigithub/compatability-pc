@@ -69,4 +69,9 @@ github 上，在起始位置的 \`\`\` 紧跟语言名称，github 会应用相�
     console.log(1)<br>
   \`\`\`
 
+```js
+// 这是一段 js 代码
+console.log(1)
+```
+
 [详细参考](https://guides.github.com/features/mastering-markdown/)
