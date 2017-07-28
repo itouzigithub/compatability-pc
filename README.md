@@ -8,9 +8,8 @@
 
 
 ### markdown 简介
-- markdown 是一种用于生成格式化文本的标记语言，可以看成是简化版 html
-- markdown 与 html 是兼容的，比如 &lt;br&gt; 这样的标签也可以用于 markdown
-- 通常，我们只需要掌握这几种语法就够了：标题、列表、链接、代码块
+- markdown 是一种用于生成格式化文本的标记语言，本质上就是 html 的一种 alias，因为 markdown 最终会被解析成 html，所以在 markdown 中可以直接使用 html
+- 通常，我们只需要掌握这几种标记就够了：标题、列表、链接、代码块
 
 #### 标题
 ```html
@@ -61,7 +60,7 @@
 [百度](www.baidu.com)
 
 #### 代码块
-```html
+
 ``` 包起来的部分就是代码块
 github 上，在起始位置的 ``` 紧跟语言名称，github 会应用相应的代码高亮，不加的话就只是没有高亮
 比如一段 js 代码：
@@ -69,9 +68,8 @@ github 上，在起始位置的 ``` 紧跟语言名称，github 会应用相应�
   // 这是一段 js 代码
   console.log(1)
 ```
-```
 
-```js
+`js
   // 这是一段 js 代码
   console.log(1)
-```
+`
